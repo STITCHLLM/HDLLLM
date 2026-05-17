@@ -1,0 +1,23 @@
+```verilog
+module comb_sensitivity (
+  input  wire a,
+  input  wire b,
+  input  wire c,
+  input  wire sel,
+  output reg out
+);
+
+always @(sel or a) begin
+  case (sel)
+    1'b0: begin
+      out = a & b;
+    end
+    1'b1: begin
+      out = b | c;
+    end
+    default: out = 1'b0; // default value for sel=2'bx or other invalid values
+  endcase
+end
+
+endmodule
+```

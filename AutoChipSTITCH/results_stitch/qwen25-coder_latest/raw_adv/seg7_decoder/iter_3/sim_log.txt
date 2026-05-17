@@ -1,0 +1,13 @@
+--- COMPILATION ---
+
+
+--- SIMULATION ---
+FAIL bcd=10: got seg=1111111, exp=0000000
+FAIL bcd=11: got seg=1111111, exp=0000000
+FAIL bcd=12: got seg=1111111, exp=0000000
+FAIL bcd=13: got seg=1111111, exp=0000000
+FAIL bcd=14: got seg=1111111, exp=0000000
+FAIL bcd=15: got seg=1111111, exp=0000000
+FAIL: 6 test(s) failed
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/qwen25-coder_latest/raw_adv/seg7_decoder/iter_3/seg7_decoder_tb.v:60: $finish called at 180 (1s)
+

@@ -1,0 +1,46 @@
+```verilog
+module alu_ops (
+    input [7:0] a,
+    input [7:0] b,
+    input [2:0] opcode,
+    output reg [7:0] result,
+    output reg carry_out,
+    output reg zero
+);
+
+always @(*) begin
+    case (opcode)
+        3'b000: begin // ADD
+            {carry_out, result} = a + b;
+            zero = (result == 8'd0);
+        end
+        3'b001: begin // SUB
+            result = a - b;
+            carry_out = (a < b);
+            zero = (result == 8'd0);
+        end
+        3'b010: begin // AND
+            result = a & b;
+            carry_out = 1'b0;
+            zero = (result == 8'd0);
+        end
+        3'b011: begin // OR
+            result = a | b;
+            carry_out = 1'b0;
+            zero = (result == 8'd0);
+        end
+        3'b100: begin // XOR
+            result = a ^ b;
+            carry_out = 1'b0;
+            zero = (result == 8'd0);
+        end
+        default: begin // Default case should not occur with valid opcode inputs
+            result = 8'b0;
+            carry_out = 1'b0;
+            zero = 1'b1;
+        end
+    endcase
+end
+
+endmodule
+```

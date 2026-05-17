@@ -1,0 +1,7 @@
+--- COMPILATION ---
+
+
+--- SIMULATION ---
+ALL TESTS PASSED
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/qwen25-coder_14b/raw_adv/decoder_3to8/iter_1/decoder_3to8_tb.v:67: $finish called at 160 (1s)
+

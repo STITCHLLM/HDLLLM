@@ -1,0 +1,154 @@
+{
+  "module": "uart_rx",
+  "model": "gemma3:4b",
+  "condition": "sem_adv",
+  "pass": false,
+  "iterations_to_pass": null,
+  "time_to_pass_sec": null,
+  "total_time_sec": 1159.07,
+  "total_iterations": 6,
+  "compile_errors": 6,
+  "sim_errors": 0,
+  "latch_warnings": 0,
+  "verilator_catches": 6,
+  "semantic_fired": 6,
+  "verilator_codes_seen": [
+    "WIDTHTRUNC",
+    "WIDTHEXPAND",
+    "MULTIDRIVEN",
+    "WIDTHTRUNC",
+    "WIDTHEXPAND",
+    "MULTIDRIVEN",
+    "WIDTHTRUNC",
+    "WIDTHEXPAND",
+    "MULTIDRIVEN",
+    "WIDTHTRUNC",
+    "WIDTHEXPAND",
+    "MULTIDRIVEN",
+    "WIDTHTRUNC",
+    "WIDTHEXPAND",
+    "MULTIDRIVEN",
+    "WIDTHTRUNC",
+    "WIDTHEXPAND"
+  ],
+  "total_prompt_tokens": 18509,
+  "total_completion_tokens": 3571,
+  "total_tokens": 22080,
+  "error_types": [
+    "syntax_error",
+    "syntax_error",
+    "syntax_error",
+    "syntax_error",
+    "syntax_error",
+    "syntax_error"
+  ],
+  "per_iter_detail": [
+    {
+      "iter": 1,
+      "prompt_tokens": 450,
+      "completion_tokens": 688,
+      "llm_time_sec": 69.87,
+      "verilator_flag": true,
+      "interp_codes": [
+        "WIDTHTRUNC",
+        "WIDTHEXPAND"
+      ],
+      "semantic_fired": true,
+      "yosys_latch": false,
+      "yosys_cells": 0,
+      "yosys_delta": null,
+      "result": "FAIL",
+      "err_type": "syntax_error"
+    },
+    {
+      "iter": 2,
+      "prompt_tokens": 3651,
+      "completion_tokens": 583,
+      "llm_time_sec": 110.19,
+      "verilator_flag": true,
+      "interp_codes": [
+        "MULTIDRIVEN",
+        "WIDTHTRUNC",
+        "WIDTHEXPAND"
+      ],
+      "semantic_fired": true,
+      "yosys_latch": false,
+      "yosys_cells": 0,
+      "yosys_delta": null,
+      "result": "FAIL",
+      "err_type": "syntax_error"
+    },
+    {
+      "iter": 3,
+      "prompt_tokens": 3667,
+      "completion_tokens": 583,
+      "llm_time_sec": 128.07,
+      "verilator_flag": true,
+      "interp_codes": [
+        "MULTIDRIVEN",
+        "WIDTHTRUNC",
+        "WIDTHEXPAND"
+      ],
+      "semantic_fired": true,
+      "yosys_latch": false,
+      "yosys_cells": 0,
+      "yosys_delta": null,
+      "result": "FAIL",
+      "err_type": "syntax_error"
+    },
+    {
+      "iter": 4,
+      "prompt_tokens": 3591,
+      "completion_tokens": 560,
+      "llm_time_sec": 219.93,
+      "verilator_flag": true,
+      "interp_codes": [
+        "MULTIDRIVEN",
+        "WIDTHTRUNC",
+        "WIDTHEXPAND"
+      ],
+      "semantic_fired": true,
+      "yosys_latch": false,
+      "yosys_cells": 0,
+      "yosys_delta": null,
+      "result": "FAIL",
+      "err_type": "syntax_error"
+    },
+    {
+      "iter": 5,
+      "prompt_tokens": 3568,
+      "completion_tokens": 574,
+      "llm_time_sec": 249.7,
+      "verilator_flag": true,
+      "interp_codes": [
+        "MULTIDRIVEN",
+        "WIDTHTRUNC",
+        "WIDTHEXPAND"
+      ],
+      "semantic_fired": true,
+      "yosys_latch": false,
+      "yosys_cells": 0,
+      "yosys_delta": null,
+      "result": "FAIL",
+      "err_type": "syntax_error"
+    },
+    {
+      "iter": 6,
+      "prompt_tokens": 3582,
+      "completion_tokens": 583,
+      "llm_time_sec": 366.44,
+      "verilator_flag": true,
+      "interp_codes": [
+        "MULTIDRIVEN",
+        "WIDTHTRUNC",
+        "WIDTHEXPAND"
+      ],
+      "semantic_fired": true,
+      "yosys_latch": false,
+      "yosys_cells": 0,
+      "yosys_delta": null,
+      "result": "FAIL",
+      "err_type": "syntax_error"
+    }
+  ]
+}

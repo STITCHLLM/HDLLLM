@@ -1,0 +1,14 @@
+--- COMPILATION ---
+
+
+--- SIMULATION ---
+FAIL a=1 b=1 c=0 sel=0: got out=0, exp 1
+FAIL: a=1 b=1 sel=0 -> exp 1, got 0
+FAIL SENSITIVITY: b changed 0->1 but out still 0 (exp 1)
+FAIL a=0 b=1 c=0 sel=1: got out=0, exp 1
+FAIL a=0 b=0 c=1 sel=1: got out=0, exp 1
+FAIL a=0 b=1 c=1 sel=1: got out=0, exp 1
+FAIL SENSITIVITY: c changed 0->1 but out still 0 (exp 1)
+FAIL: 7 test(s) failed
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/llama31/baseline/comb_sensitivity/iter_1/comb_sensitivity_tb.v:72: $finish called at 340000 (1ps)
+

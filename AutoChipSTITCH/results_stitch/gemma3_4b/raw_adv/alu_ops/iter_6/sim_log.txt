@@ -1,0 +1,12 @@
+--- COMPILATION ---
+
+
+--- SIMULATION ---
+FAIL op=000 a=200 b=100: got result=44 co=0 z=0 | exp result=44 co=1 z=0
+FAIL op=000 a=255 b=1: got result=0 co=0 z=1 | exp result=0 co=1 z=1
+FAIL op=101 a=99 b=33: got result=0 co=0 z=0 | exp result=0 co=0 z=1
+FAIL op=110 a=42 b=42: got result=0 co=0 z=0 | exp result=0 co=0 z=1
+FAIL op=111 a=1 b=1: got result=0 co=0 z=0 | exp result=0 co=0 z=1
+FAIL: 5 test(s) failed
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/raw_adv/alu_ops/iter_6/alu_ops_tb.v:72: $finish called at 170 (1s)
+

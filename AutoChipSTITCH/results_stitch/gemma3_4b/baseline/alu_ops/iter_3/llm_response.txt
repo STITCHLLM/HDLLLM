@@ -1,0 +1,54 @@
+```verilog
+module alu_ops (
+  input [7:0] a,
+  input [7:0] b,
+  input [2:0] opcode,
+  output reg [7:0] result,
+  output reg carry_out,
+  output reg zero
+);
+
+  reg [7:0] temp_result;
+
+  always @(*) begin
+    case (opcode)
+      3'b000: begin
+        temp_result = a + b;
+        result = temp_result;
+        carry_out = 0;
+        zero = (temp_result == 8'd0);
+      end
+      3'b001: begin
+        temp_result = a - b;
+        result = temp_result;
+        carry_out = (a < b);
+        zero = (temp_result == 8'd0);
+      end
+      3'b010: begin
+        temp_result = a & b;
+        result = temp_result;
+        carry_out = 0;
+        zero = (temp_result == 8'd0);
+      end
+      3'b011: begin
+        temp_result = a | b;
+        result = temp_result;
+        carry_out = 0;
+        zero = (temp_result == 8'd0);
+      end
+      3'b100: begin
+        temp_result = a ^ b;
+        result = temp_result;
+        carry_out = 0;
+        zero = (temp_result == 8'd0);
+      end
+      default: begin
+        result = 8'd0;
+        carry_out = 0;
+        zero = 0;
+      end
+    endcase
+  end
+
+endmodule
+```

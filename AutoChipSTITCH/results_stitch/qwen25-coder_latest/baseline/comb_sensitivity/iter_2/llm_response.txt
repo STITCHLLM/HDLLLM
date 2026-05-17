@@ -1,0 +1,24 @@
+The issue with the original code is that it does not properly handle the sensitivity list and the logic inside the `always` block. The sensitivity list should include all signals that are read within the block, and the logic inside the `always` block should correctly reflect the combinational logic based on the selector.
+
+Here's the corrected module:
+
+```verilog
+module comb_sensitivity (
+    input a,
+    input b,
+    input c,
+    input sel,
+    output reg out
+);
+
+always @(sel or a or b or c) begin
+    if (sel == 1'b0)
+        out = a & b;
+    else
+        out = b | c;
+end
+
+endmodule
+```
+
+This module now includes all necessary signals in the sensitivity list (`sel`, `a`, `b`, and `c`). The logic inside the `always` block correctly implements the combinational function based on the selector.

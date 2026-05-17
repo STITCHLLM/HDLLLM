@@ -1,0 +1,9 @@
+--- COMPILATION ---
+warning: Found both default and `timescale based delays. Use
+       : -Wtimescale to find the module(s) with no `timescale.
+
+
+--- SIMULATION ---
+ALL TESTS PASSED
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/llama31/baseline/comb_sensitivity/iter_4/comb_sensitivity_tb.v:72: $finish called at 340000 (1ps)
+

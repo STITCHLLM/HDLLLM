@@ -1,0 +1,117 @@
+{
+  "module": "comb_sensitivity",
+  "model": "qwen2.5-coder:latest",
+  "condition": "sem_adv",
+  "pass": false,
+  "iterations_to_pass": null,
+  "time_to_pass_sec": null,
+  "total_time_sec": 153.69,
+  "total_iterations": 6,
+  "compile_errors": 0,
+  "sim_errors": 6,
+  "latch_warnings": 0,
+  "verilator_catches": 1,
+  "semantic_fired": 1,
+  "verilator_codes_seen": [
+    "BLKSEQ"
+  ],
+  "total_prompt_tokens": 9273,
+  "total_completion_tokens": 438,
+  "total_tokens": 9711,
+  "error_types": [
+    "logic_error",
+    "logic_error",
+    "logic_error",
+    "logic_error",
+    "logic_error",
+    "logic_error"
+  ],
+  "per_iter_detail": [
+    {
+      "iter": 1,
+      "prompt_tokens": 391,
+      "completion_tokens": 73,
+      "llm_time_sec": 10.27,
+      "verilator_flag": true,
+      "interp_codes": [
+        "BLKSEQ"
+      ],
+      "semantic_fired": true,
+      "yosys_latch": false,
+      "yosys_cells": 0,
+      "yosys_delta": null,
+      "result": "FAIL",
+      "err_type": "logic_error"
+    },
+    {
+      "iter": 2,
+      "prompt_tokens": 1006,
+      "completion_tokens": 73,
+      "llm_time_sec": 31.49,
+      "verilator_flag": false,
+      "interp_codes": [],
+      "semantic_fired": false,
+      "yosys_latch": false,
+      "yosys_cells": 0,
+      "yosys_delta": null,
+      "result": "FAIL",
+      "err_type": "logic_error"
+    },
+    {
+      "iter": 3,
+      "prompt_tokens": 1330,
+      "completion_tokens": 73,
+      "llm_time_sec": 20.84,
+      "verilator_flag": false,
+      "interp_codes": [],
+      "semantic_fired": false,
+      "yosys_latch": false,
+      "yosys_cells": 0,
+      "yosys_delta": null,
+      "result": "FAIL",
+      "err_type": "logic_error"
+    },
+    {
+      "iter": 4,
+      "prompt_tokens": 1807,
+      "completion_tokens": 73,
+      "llm_time_sec": 28.5,
+      "verilator_flag": false,
+      "interp_codes": [],
+      "semantic_fired": false,
+      "yosys_latch": false,
+      "yosys_cells": 0,
+      "yosys_delta": null,
+      "result": "FAIL",
+      "err_type": "logic_error"
+    },
+    {
+      "iter": 5,
+      "prompt_tokens": 2131,
+      "completion_tokens": 73,
+      "llm_time_sec": 21.76,
+      "verilator_flag": false,
+      "interp_codes": [],
+      "semantic_fired": false,
+      "yosys_latch": false,
+      "yosys_cells": 0,
+      "yosys_delta": null,
+      "result": "FAIL",
+      "err_type": "logic_error"
+    },
+    {
+      "iter": 6,
+      "prompt_tokens": 2608,
+      "completion_tokens": 73,
+      "llm_time_sec": 30.73,
+      "verilator_flag": false,
+      "interp_codes": [],
+      "semantic_fired": false,
+      "yosys_latch": false,
+      "yosys_cells": 0,
+      "yosys_delta": null,
+      "result": "FAIL",
+      "err_type": "logic_error"
+    }
+  ]
+}

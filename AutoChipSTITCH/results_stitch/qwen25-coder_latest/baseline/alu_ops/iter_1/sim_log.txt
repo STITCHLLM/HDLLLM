@@ -1,0 +1,7 @@
+--- COMPILATION ---
+
+
+--- SIMULATION ---
+ALL TESTS PASSED
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/qwen25-coder_latest/baseline/alu_ops/iter_1/alu_ops_tb.v:72: $finish called at 170 (1s)
+

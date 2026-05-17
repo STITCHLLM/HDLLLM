@@ -1,0 +1,85 @@
+```verilog
+module uart_rx (
+  input clk,
+  input rst,
+  input rx,
+  output reg [7:0] rx_data,
+  output reg data_valid
+);
+
+  // Parameter definitions
+  parameter CLKS_PER_BIT = 4;
+
+  // Internal signals
+  reg [7:0] bit_value;
+  reg bit_count;
+  reg byte_complete;
+
+  // FSM states
+  typedef enum logic [1:0] {
+    IDLE,
+    RECEIVING_START,
+    RECEIVING_DATA,
+    RECEIVING_STOP
+  } state_type;
+  reg state, next_state;
+
+  // State transition logic
+  always @(posedge clk or negedge rst) begin
+    if (!rst) begin
+      state <= IDLE;
+      bit_count <= 0;
+      byte_complete <= 0;
+      rx_data <= 0;
+      data_valid <= 0;
+    end else begin
+      state <= next_state;
+      bit_count <= 0;
+      byte_complete <= 0;
+    end
+  end
+
+  // Next state logic
+  always @(*) begin
+    case (state)
+      IDLE: begin
+        next_state = RECEIVING_START;
+      end
+      RECEIVING_START: begin
+        next_state = RECEIVING_DATA;
+      end
+      RECEIVING_DATA: begin
+        if (bit_count < CLKS_PER_BIT / 2) begin
+          next_state = RECEIVING_DATA;
+        end else begin
+          next_state = RECEIVING_STOP;
+        end
+      end
+      RECEIVING_STOP: begin
+        next_state = IDLE;
+      end
+      default: begin
+        next_state = IDLE;
+      end
+    endcase
+  end
+
+  // Output logic
+  always @(posedge clk) begin
+    if (state == IDLE) begin
+      rx_data <= 0;
+      data_valid <= 0;
+    end else if (state == RECEIVING_START) begin
+      // Start bit is low, no action needed
+    end else if (state == RECEIVING_DATA) begin
+      bit_value <= rx;
+      if (bit_count == CLKS_PER_BIT / 2 - 1) begin
+        rx_data <= bit_value;
+      end
+      bit_count = bit_count + 1;
+    end else if (state == RECEIVING_STOP) begin
+      // Stop bit is high, no action needed
+    end
+  end
+endmodule
+```

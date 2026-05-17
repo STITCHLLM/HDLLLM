@@ -1,0 +1,20 @@
+--- COMPILATION ---
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_4/comb_sensitivity.v:10: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_4/comb_sensitivity.v:10: error: Malformed statement
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_4/comb_sensitivity.v:12: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_4/comb_sensitivity.v:13: Syntax in assignment statement l-value.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_4/comb_sensitivity.v:14: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_4/comb_sensitivity.v:15: error: Invalid module item.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_4/comb_sensitivity.v:16: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_4/comb_sensitivity_tb.v:10: error: Invalid module item.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_4/comb_sensitivity_tb.v:11: error: 'a' has already been declared in this scope.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_4/comb_sensitivity.v:2:      : It was declared here as a net.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_4/comb_sensitivity_tb.v:11: error: 'b' has already been declared in this scope.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_4/comb_sensitivity.v:3:      : It was declared here as a net.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_4/comb_sensitivity_tb.v:11: error: 'c' has already been declared in this scope.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_4/comb_sensitivity.v:4:      : It was declared here as a net.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_4/comb_sensitivity_tb.v:11: error: 'sel' has already been declared in this scope.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_4/comb_sensitivity.v:5:      : It was declared here as a net.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_4/comb_sensitivity_tb.v:12: error: 'out' has already been declared in this scope.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_4/comb_sensitivity.v:6:      : It was declared here as a variable.
+

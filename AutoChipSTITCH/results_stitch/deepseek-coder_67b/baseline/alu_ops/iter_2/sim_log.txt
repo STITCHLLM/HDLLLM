@@ -1,0 +1,10 @@
+--- COMPILATION ---
+
+
+--- SIMULATION ---
+FAIL op=101 a=99 b=33: got result=x co=x z=x | exp result=0 co=0 z=1
+FAIL op=110 a=42 b=42: got result=x co=x z=x | exp result=0 co=0 z=1
+FAIL op=111 a=1 b=1: got result=x co=x z=x | exp result=0 co=0 z=1
+FAIL: 3 test(s) failed
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/deepseek-coder_67b/baseline/alu_ops/iter_2/alu_ops_tb.v:72: $finish called at 170 (1s)
+

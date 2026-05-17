@@ -1,0 +1,52 @@
+{
+  "module": "seg7_decoder",
+  "model": "qwen2.5-coder:latest",
+  "condition": "baseline",
+  "pass": true,
+  "iterations_to_pass": 2,
+  "time_to_pass_sec": 140.71,
+  "total_time_sec": 140.71,
+  "total_iterations": 2,
+  "compile_errors": 0,
+  "sim_errors": 1,
+  "latch_warnings": 0,
+  "verilator_catches": 0,
+  "semantic_fired": 0,
+  "verilator_codes_seen": [],
+  "total_prompt_tokens": 1748,
+  "total_completion_tokens": 761,
+  "total_tokens": 2509,
+  "error_types": [
+    "logic_error"
+  ],
+  "per_iter_detail": [
+    {
+      "iter": 1,
+      "prompt_tokens": 552,
+      "completion_tokens": 334,
+      "llm_time_sec": 60.11,
+      "verilator_flag": false,
+      "interp_codes": [],
+      "semantic_fired": false,
+      "yosys_latch": false,
+      "yosys_cells": 0,
+      "yosys_delta": null,
+      "result": "FAIL",
+      "err_type": "logic_error"
+    },
+    {
+      "iter": 2,
+      "prompt_tokens": 1196,
+      "completion_tokens": 427,
+      "llm_time_sec": 75.26,
+      "verilator_flag": false,
+      "interp_codes": [],
+      "semantic_fired": false,
+      "yosys_latch": false,
+      "yosys_cells": 0,
+      "yosys_delta": null,
+      "result": "PASS",
+      "err_type": "PASS"
+    }
+  ]
+}

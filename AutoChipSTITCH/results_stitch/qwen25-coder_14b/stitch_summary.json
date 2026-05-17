@@ -1,0 +1,118 @@
+{
+  "model": "qwen2.5-coder:14b",
+  "conditions": [
+    "baseline",
+    "raw_adv",
+    "sem_adv"
+  ],
+  "results": [
+    {
+      "module": "decoder_3to8",
+      "model": "qwen2.5-coder:14b",
+      "condition": "baseline",
+      "pass": true,
+      "iterations_to_pass": 1,
+      "time_to_pass_sec": 130.47,
+      "total_time_sec": 130.47,
+      "total_iterations": 1,
+      "compile_errors": 0,
+      "sim_errors": 0,
+      "latch_warnings": 0,
+      "verilator_catches": 0,
+      "semantic_fired": 0,
+      "verilator_codes_seen": [],
+      "total_prompt_tokens": 530,
+      "total_completion_tokens": 293,
+      "total_tokens": 823,
+      "error_types": [],
+      "per_iter_detail": [
+        {
+          "iter": 1,
+          "prompt_tokens": 530,
+          "completion_tokens": 293,
+          "llm_time_sec": 127.03,
+          "verilator_flag": false,
+          "interp_codes": [],
+          "semantic_fired": false,
+          "yosys_latch": false,
+          "yosys_cells": 0,
+          "yosys_delta": null,
+          "result": "PASS",
+          "err_type": "PASS"
+        }
+      ]
+    },
+    {
+      "module": "decoder_3to8",
+      "model": "qwen2.5-coder:14b",
+      "condition": "raw_adv",
+      "pass": true,
+      "iterations_to_pass": 1,
+      "time_to_pass_sec": 84.46,
+      "total_time_sec": 84.46,
+      "total_iterations": 1,
+      "compile_errors": 0,
+      "sim_errors": 0,
+      "latch_warnings": 0,
+      "verilator_catches": 0,
+      "semantic_fired": 0,
+      "verilator_codes_seen": [],
+      "total_prompt_tokens": 530,
+      "total_completion_tokens": 293,
+      "total_tokens": 823,
+      "error_types": [],
+      "per_iter_detail": [
+        {
+          "iter": 1,
+          "prompt_tokens": 530,
+          "completion_tokens": 293,
+          "llm_time_sec": 80.81,
+          "verilator_flag": false,
+          "interp_codes": [],
+          "semantic_fired": false,
+          "yosys_latch": false,
+          "yosys_cells": 0,
+          "yosys_delta": null,
+          "result": "PASS",
+          "err_type": "PASS"
+        }
+      ]
+    },
+    {
+      "module": "decoder_3to8",
+      "model": "qwen2.5-coder:14b",
+      "condition": "sem_adv",
+      "pass": true,
+      "iterations_to_pass": 1,
+      "time_to_pass_sec": 82.14,
+      "total_time_sec": 82.14,
+      "total_iterations": 1,
+      "compile_errors": 0,
+      "sim_errors": 0,
+      "latch_warnings": 0,
+      "verilator_catches": 0,
+      "semantic_fired": 0,
+      "verilator_codes_seen": [],
+      "total_prompt_tokens": 530,
+      "total_completion_tokens": 293,
+      "total_tokens": 823,
+      "error_types": [],
+      "per_iter_detail": [
+        {
+          "iter": 1,
+          "prompt_tokens": 530,
+          "completion_tokens": 293,
+          "llm_time_sec": 78.74,
+          "verilator_flag": false,
+          "interp_codes": [],
+          "semantic_fired": false,
+          "yosys_latch": false,
+          "yosys_cells": 0,
+          "yosys_delta": null,
+          "result": "PASS",
+          "err_type": "PASS"
+        }
+      ]
+    }
+  ]
+}

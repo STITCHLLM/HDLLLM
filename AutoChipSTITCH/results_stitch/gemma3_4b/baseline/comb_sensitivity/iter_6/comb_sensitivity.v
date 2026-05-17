@@ -1,0 +1,17 @@
+module comb_sensitivity (
+  input a,
+  input b,
+  input c,
+  input sel,
+  output reg out
+);
+
+  always @(sel or a) begin
+    if (sel == 0) begin
+      out = a & b;
+    end else begin
+      out = b | c;
+    end
+  end
+
+endmodule

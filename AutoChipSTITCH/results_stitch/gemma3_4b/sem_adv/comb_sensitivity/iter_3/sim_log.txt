@@ -1,0 +1,64 @@
+--- COMPILATION ---
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity.v:10: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity.v:10: error: Malformed statement
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity.v:12: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity.v:13: Syntax in assignment statement l-value.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity.v:15: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity.v:16: Syntax in assignment statement l-value.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity.v:18: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:10: error: Malformed statement
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:11: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:11: error: Malformed statement
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:12: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:12: error: Malformed statement
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:14: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:14: error: Malformed statement
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:16: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:16: Syntax in assignment statement l-value.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:18: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:18: error: Malformed statement
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:19: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:19: error: Malformed statement
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:20: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:20: error: Malformed statement
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:29: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:33: error: Malformed statement
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:39: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:39: error: Invalid module instantiation
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:39: error: Invalid module instantiation
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:39: error: Invalid module instantiation
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:39: error: Invalid module instantiation
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:39: error: Invalid module item.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:40: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:40: error: Invalid module instantiation
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:41: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:41: error: Invalid module instantiation
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:41: error: Invalid module item.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:42: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:42: error: Invalid module instantiation
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:43: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:43: error: Invalid module instantiation
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:43: error: Invalid module item.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:44: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:44: error: Invalid module instantiation
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:54: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:54: error: Invalid module instantiation
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:54: error: Invalid module instantiation
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:54: error: Invalid module instantiation
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:54: error: Invalid module instantiation
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:54: error: Invalid module item.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:55: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:55: error: Invalid module instantiation
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:56: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:56: error: Invalid module instantiation
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:56: error: Invalid module item.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:57: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:57: error: Invalid module instantiation
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:58: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:58: error: Invalid module instantiation
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:58: error: Invalid module item.
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:59: syntax error
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:59: error: Invalid module instantiation
+/mnt/c/KarDRIVE/BITS Files/3-2/LLM_Verilog Project/AgenticAI/AutoChipAdvFB/results_stitch/gemma3_4b/sem_adv/comb_sensitivity/iter_3/comb_sensitivity_tb.v:73: syntax error
+I give up.
+
