@@ -528,21 +528,6 @@ Results accumulate in `results/<model>/summary.json`.
 
 ---
 
-## Citation
-
-If you use this benchmark, codebase, or failure taxonomy in your work, please cite:
-
-```bibtex
-@inproceedings{stitch2026,
-  title     = {{STITCH}: Semantic Toolchain Integration for {LLM}-Driven {RTL} Generation},
-  author    = {Anonymous Authors},
-  booktitle = {Proceedings of the ACM/IEEE International Symposium on Machine Learning for CAD (MLCAD)},
-  year      = {2026},
-  url       = {https://github.com/STITCHLLM/HDLLLM}
-}
-```
-
----
 
 ## Acknowledgements
 
