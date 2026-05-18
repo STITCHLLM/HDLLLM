@@ -69,7 +69,7 @@ The model receives this directive and **resolves the module on the next iteratio
 
 ### Live Output — Three Conditions on `decoder_3to8` with `gemma3:4b`
 
-![STITCH decoder_3to8 result showing Baseline FAIL|6, Raw FAIL|6, Sem Adv PASS|2 with +4 iteration delta and 1 semantic fire](figures/stitchdecoderdelta_4withyosys.png)
+<img width="1657" height="1071" alt="stitchdecoderdelta+4withyosys" src="https://github.com/user-attachments/assets/81306dbd-fcbe-4c89-9767-19c24ac47460" />
 
 The error transition matrix tells the full story:
 - `base`: `LGIC LGIC LGIC LGIC LGIC LGIC` — stuck on logic errors, never recovers
