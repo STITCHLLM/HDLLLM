@@ -80,40 +80,9 @@ The error transition matrix tells the full story:
 
 ## STITCH Pipeline
 
-```
-                    ┌─────────────────────────────────────┐
-                    │                                     │
-              ┌─────▼──────┐                             │
-   spec ───► │    LLM      │  (Ollama / Gemini / OpenAI) │
-              └─────┬──────┘                             │
-                    │ Verilog                             │
-              ┌─────▼──────┐                             │
-              │  Verilator  │  lint warnings              │
-              │   (lint)    │  UNUSEDSIGNAL, MULTIDRIVEN  │
-              └─────┬──────┘  WIDTHTRUNC, BLKSEQ ...     │
-                    │                                     │
-              ┌─────▼──────┐                             │
-              │   Icarus    │  compile + simulate         │
-              │  Verilog    │  FAIL tokens in stdout      │
-              └─────┬──────┘                             │
-                    │                                     │
-              ┌─────▼──────┐                             │
-              │    Yosys    │  synthesis                  │
-              │  synthesis  │  latch inference,           │
-              └─────┬──────┘  combinational loops        │
-                    │                                     │
-                 Pass? ──── Yes ──► Store RTL ✓           │
-                    │                                     │
-                    No                                    │
-                    │                                     │
-              ┌─────▼──────────────┐                     │
-              │ Semantic Interpreter│  (deterministic     │
-              │  regex → directive  │   Python, zero      │
-              └─────┬──────────────┘   inference cost)   │
-                    │                                     │
-                    └─────────────── feedback ───────────┘
-                           (up to 5 retries)
-```
+
+<img width="867" height="722" alt="STITCHframework" src="https://github.com/user-attachments/assets/4e4499a8-3830-423e-b9f3-a8c26a4d7e3b" />
+
 
 The interpreter is a deterministic regex script — not an LLM call. It adds zero inference cost and zero latency.
 
